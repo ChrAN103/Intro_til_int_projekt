@@ -73,11 +73,6 @@ boxplot(win_rate2,win_rate,col = c("red","blue"))
 
 boxplot(scores2,scores,col = c("red","blue"))
 
-hist(win_rate2,col = "red",breaks = 15)
-hist(win_rate,col = "blue",breaks = 15)
-hist(scores2,col = "red",breaks = 15)
-hist(scores,col = "blue",breaks = 15)
-
 # Win rate:
 perc1 <- win_rate*100
 perc2 <- win_rate2*100
