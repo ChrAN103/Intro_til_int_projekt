@@ -10,7 +10,7 @@ gscore = []
 rounds = []
 steplist = []
 
-for j in range(1):
+for j in range(53):
 
     agent = Agent(gamma=0.99, epsilon=1.0, lr=0.001, input_dims=[8], batch_size=5, n_actions=4, max_mem_size=100000, eps_end=0.01, eps_dec=0.00003,eps_remover=num_games*0.9)
 
