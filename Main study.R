@@ -49,7 +49,7 @@ n2 <- length(win_rate2) # = 28
 mean(win_rate2) # = 0.08036
 
 # 99% konfidens interval for win rate:
-mean(win_rate2) + c(-1,1) * qnorm(0.995) * sd(win_rate2) / sqrt(n2) # = [0.059 , 0.102]
+mean(win_rate2) + c(-1,1) * qnorm(0.995) * sd(win_rate2) / sqrt(n2) # = [0.076 , 0.084]
 
 
 # Scores: ###
@@ -58,11 +58,11 @@ scores2 <- c(-117.509, -117.862, -115.205, -117.775, -116.343, -118.092, -115.70
              -113.511, -118.804, -118.974, -117.927, -117.257, -117.333, -117.559, 
              -116.918, -118.78, -117.313, -115.45, -116.075, -115.379, -117.487)
 
-length(scores2) # = 16
+length(scores2) # = 28
 mean(scores2) # = -117.9025
 
 # 99% konfidens interval for scores:
-mean(scores2) + c(-1,1) * qnorm(0.995) * sd(scores2) / sqrt(n2) # = [-122.63 , -113.17]
+mean(scores2) + c(-1,1) * qnorm(0.995) * sd(scores2) / sqrt(n2) # = [-117.93 , -116.53]
 
 
 
